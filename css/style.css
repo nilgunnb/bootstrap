@@ -1,0 +1,237 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card:hover{
+    border-color: #0aad0a;
+    box-shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+}
+
+.card img{
+    width: 57%; 
+}
+
+.card-body{
+    margin-top: -4%;
+}
+
+.text-align-start h3{
+    width: 113%;
+}
+
+.card-text{
+    font-size: 13px;
+    font-family: Medium;
+    width: 100%;
+}
+
+.first-section-top h3{
+    font-family: SemiBold;
+    font-size: 1.53125rem;
+}
+
+.fs-icons i{
+    padding: 10px 13px;
+    border-radius: 100px;
+    background-color: #ecf0ef;
+    color: #8e9397;
+    font-size:14px;
+    transition: .3s;
+}
+
+.fs-icons i:hover{
+    background-color: #0aad0a;
+    color: #fff;
+
+}
+
+.fs-box p{
+    margin-left: 2px;
+}
+
+.second-section-top h3{
+    font-family: SemiBold;
+    letter-spacing: -.03rem;
+    font-size: 1.53125rem;
+    color: #21313c;
+    line-height: 1.2;  
+}
+
+.banner-left{
+    background-image: url('../photos/grocery-banner.png');
+    background-position: center;
+    border-radius: 0.5rem;
+    background-size: cover;
+    padding-bottom: 3rem!important;
+    padding-top: 3rem!important;
+}
+
+.banner-right{
+    background-image: url('../photos/grocery-banner-2.jpg');
+    background-position: center;
+    border-radius: 0.5rem;
+    background-size: cover;
+    padding-bottom: 3rem!important;
+    padding-top: 3rem!important;
+}
+
+.banner-left, .banner-right{
+    width: 49%;
+}
+
+.fw-bold{
+    font-family: Bold;
+    font-size: 1.53125rem;
+}
+
+.banner-right p, .banner-left p{
+    color: #4a565d;
+    font-family: Medium;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.banner-right span, .banner-left span{
+    font-family: Bold;   
+}
+
+.banner-left h3,p,a,.banner-right h3,p,a{
+    margin-left: 20px;
+}
+
+.banner-right a:hover, .banner-left a:hover{
+    background-color: #26404b;
+    border-color: #1a3540;;
+    color: #fff;
+}
+
+.banner-right a, .banner-left a{
+    padding: 0.8rem 1rem;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    font-family: Bold;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    background-color: #001e2b;
+    color: #fff;
+
+}
+
+@media (max-width:768px) {
+    .sm-none{
+        display: none;
+    
+    }
+
+    .first-section h3{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media only screen and (min-width:768px) and (max-width: 1400px) and (max-width: 992px){
+   .fs-box-5, .fs-box-6{
+    display: none;
+   }    
+}
+
+@media only screen and (min-width: 768px) and (max-width:1400px){
+    .lg-none{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    
+    .fish, .clean{
+        width: 108%;
+        margin-left: -4px;
+    }
+    
+    .bake{
+       margin-left: -1px;
+    }
+}
+
+.banner-right, .banner-left{
+    width: 100%;
+}
+
+.card small, .span-price{
+  font-size: 12.25px;
+  font-family: Medium;
+  color: #889397;
+}
+
+.card h2{
+    font-size: 14px;
+    color: #21313C;
+    font-family: SemiBold;
+}
+
+.price span{
+    font-family: Medium;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.price-add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add a{
+    background-color: #0aad0a;
+    border-color: #0aad0a;
+    font-family: Bold;
+    line-height: 1.6;
+    font-size: 0.765625rem;
+}
+
+.add a:hover{
+    background-color: #088208;
+    border-color: #088208;
+}
+
+.little-thing{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.card-second img{
+    position: relative;
+
+}
+
+.action{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+
+.action i{
+    color: #001e2b;
+    font-size: 14px;
+    padding: 7px 7px;
+    background-color: #fff;
+    border: 1px none #001e2b;
+    border-radius: 5px;
+    box-shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.card-second:hover .action i{
+    opacity: 1;
+}
+
+.action i:hover{
+    background-color: #0aad0a;
+    color: #fff;
+}
